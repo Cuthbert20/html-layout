@@ -1,0 +1,66 @@
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+div {
+    display: block;
+}
+
+span {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.top-row {
+    background-color: rgb(233, 221, 221);
+    padding: 25px;
+    box-sizing: border-box;
+}
+
+.inside-top {
+    background-color: rgb(58, 58, 238);
+    height: 50px;
+    width: 50px;  
+}
+
+.flag {
+    height: 100px;
+    width: 100%;
+    margin: auto;
+}
+
+.white {
+    text-align: center;
+    box-sizing: border-box;
+    padding: 45px;
+}
+
+.blue {
+    background-color: #4A90E2;
+    
+}
+
+.aqua {
+    background-color: aqua;
+}
+
+.green {
+    background-color: rgb(184, 233, 134);
+}
+
+.yellow {
+    background-color: rgb(223, 223, 45);
+}
